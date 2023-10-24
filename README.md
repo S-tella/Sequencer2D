@@ -1,5 +1,5 @@
 # Sequencer2D
-project of Vit using BiLSTM2D instead of self attention
+project of Vit using BiLSTM2D instead of self attention , all the project was trained over cifar10 dataset
 
 
 In this repo there are 4 main Jupiter notebook files,  with the implementation of a vision transformer architecture  that use Bilstm2d instead of self attention.
@@ -18,6 +18,7 @@ The results achieved are not very good, accuracy still low and fluctuating  even
 To Install—
 It is very easy, as it’s said in requirements.txt the only package needed to run the code are 
 Pytorch , numpy, sklearn .
+It is needed to download the cifar10 dataset in order to run the project
 All the project was developed in python 3.8.5
 
 P.s. more specific details about the architecture, the code and the issues are in the report file, and in the Jupiternotebooks as description to the code.
